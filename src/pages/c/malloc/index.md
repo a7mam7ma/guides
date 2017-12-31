@@ -5,7 +5,8 @@ title: malloc
 Malloc is a library function that allows C to allocate memory dynamically from the heap. The heap is an area of memory where something is stored.
 
 ## Using Malloc
-Malloc() allocates memory of a requested size and returns a pointer to the beginning of the block. To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.  
+malloc() allocates memory of a requested size and returns a pointer to the beginning of the block and it is part of stdlib (must include stdlib.h). To hold this returned pointer, we must create a variable. The pointer should be of same type used in the malloc statement.
+
 Here we'll make a pointer to a soon-to-be array of ints
 ```C
 int* arrayPtr;
